@@ -1,7 +1,7 @@
 MIT License (inherited from upstream hkdatasets project)
 
 Copyright (c) 2021 hong-kong-districts-info contributors
-Copyright (c) 2026 Liao Bo (paper-reproducibility snapshot)
+Copyright (c) 2026 Dave HU (paper-reproducibility snapshot)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
