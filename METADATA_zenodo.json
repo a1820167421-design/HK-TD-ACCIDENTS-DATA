@@ -1,0 +1,55 @@
+{
+  "title": "Hong Kong Pedestrian-Crash Incident-Level Records 2014-2019: Snapshot for NMTI Paper Reproducibility",
+  "description": "<p>This deposit provides a snapshot of Hong Kong incident-level traffic-crash records (2014-2019, n = 95,821) used for behavioral validation in the paper Constructing and Validating a Non-Motorized Transport Index with Modal Integration Quality: Cross-City Evidence from Three Asian Megacities (forthcoming, Transportation Research Part D).</p><p><strong>Provenance.</strong> The records originate from the Hong Kong Transport Department, accessed via Freedom of Information request, and curated for public reuse in the hkdatasets R package (hong-kong-districts-info, MIT license, v1.0.0, September 2021). Coordinate transformation from HK1980 grid to WGS84 was performed by the package author. This deposit redistributes the snapshot under the same MIT license to ensure long-term reproducibility of the paper's behavioral-validation analyses, given that the upstream repository may be updated or relocated.</p><p><strong>Use.</strong> Permitted for academic, research, and commercial use under MIT terms. When citing, please credit (i) the upstream hkdatasets project, (ii) this Zenodo snapshot, and (iii) the Hong Kong Transport Department as the underlying data custodian. See README.md for a recommended three-part citation.</p><p><strong>Contents.</strong> Three CSV files: hk_accidents.csv (95,822 lines, 21.6 MB) with WGS84 coordinates and accident metadata; hk_casualties.csv (120,111 lines, 13.9 MB) with per-casualty severity and role; hk_vehicles.csv (153,063 lines, 7.7 MB) with per-vehicle attributes. Cryptographic SHA-256 hashes in CHECKSUMS.sha256.</p><p><strong>Limitations.</strong> Time coverage 2014-2019 only. The original Freedom of Information letter terms are not publicly redistributed. Severity classification follows the Transport Department's coding. Anonymization at the level of the public record (no personal identifiers); coordinates plus date-time may permit re-identification in rare scenarios, and standard academic anonymization expectations apply.</p>",
+  "upload_type": "dataset",
+  "creators": [
+    {
+      "name": "HU,Qixuan",
+      "affiliation": "(your university / department)",
+      "orcid": "(insert ORCID, recommended)"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "hong-kong-districts-info contributors",
+      "type": "DataCurator",
+      "affiliation": "hkdatasets R package (https://github.com/hong-kong-districts-info/hkdatasets)"
+    },
+    {
+      "name": "Hong Kong Transport Department",
+      "type": "RightsHolder",
+      "affiliation": "Government of the Hong Kong Special Administrative Region"
+    }
+  ],
+  "keywords": [
+    "Hong Kong",
+    "pedestrian safety",
+    "traffic accidents",
+    "non-motorized transport",
+    "Freedom of Information",
+    "transport research",
+    "urban safety",
+    "geocoded crash data",
+    "behavioral validation",
+    "NMTI"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/hong-kong-districts-info/hkdatasets",
+      "relation": "isDerivedFrom",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://data.gov.hk",
+      "relation": "isReferencedBy",
+      "resource_type": "dataset"
+    }
+  ],
+  "communities": [
+    {"identifier": "transport-research"}
+  ],
+  "notes": "Snapshot date: 2026-04-24. Downloaded from raw.githubusercontent.com/hong-kong-districts-info/hkdatasets/master/data-raw/. SHA-256 hashes in CHECKSUMS.sha256. See README.md for full provenance and citation guidance."
+}
